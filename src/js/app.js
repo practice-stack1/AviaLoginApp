@@ -182,9 +182,9 @@ document.addEventListener('DOMContentLoaded', e => {
   function getBirthday(data){
     const birthData = data.split('-');
     return {
-      date_of_birth_day: birthData[0],
+      date_of_birth_day: birthData[2],
       date_of_birth_month: birthData[1],
-      date_of_birth_year: birthData[2]
+      date_of_birth_year: birthData[0]
     }
   }
   function checkValidation(inputs){
